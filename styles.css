@@ -1,0 +1,159 @@
+:root {
+  --white: #ffffff;
+  --gray-100: #F2F2F2;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+  --green-300: #00b37e;
+  --green-500: #00875f;
+  --blue-300: #25d6f5;
+  --red-500: #F75A68;
+}
+
+:focus {
+  outline: transparent !important;
+  box-shadow: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, textarea, button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;    
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;  
+  font-size: 2rem;
+  color: var(--blue-300);
+  font-weight: 400;
+}
+
+h1 span {
+  color: var(--green-500);
+}
+
+header {  
+  width: 100;
+  background: var(--gray-800);
+  display: flex;
+  justify-content: center;  
+}
+  
+#header-box {
+  max-width: 940px;
+  width: 100%;
+  display: flex;  
+  justify-content: end;  
+  justify-items: baseline;
+  gap: 1rem;
+  padding: 1.25rem 0;
+}
+
+header img {
+  width: 2rem;
+  height: 2rem;
+}
+
+input {
+  width: 8rem;
+  height: 1.8rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--gray-400);
+}
+
+body {
+  width: 100%;
+  background: var(--gray-900);
+  color: var(--gray-300);
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  margin: 3rem auto;
+  max-width: 940px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;  
+  align-items: end;  
+}
+
+#container {
+  width: 100%; 
+  text-align: center; 
+}
+
+#delete {
+  background: var(--red-500);  
+}
+
+table {  
+  width: 100%;
+  max-width: 940px;
+  text-align: center;
+  overflow: hidden;
+  border-collapse: collapse;  
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+}
+
+table td {
+  color: var(--gray-600);
+  background: var(--gray-300);
+  padding: 5px;
+  border: 1px solid var(--gray-100);
+}
+
+table th {
+  color: var(--white);
+  background-color: var(--blue-300);
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
+  height: 2rem;
+  width: 2rem;  
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;  
+}
+
+#search {
+  background: var(--green-500);
+  
+}
+
+#search:hover {
+  background: var(--green-300);
+}
+
+button img {
+    max-width: 1rem;    
+    width: auto;
+    height: auto;
+}
+
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;    
+}
